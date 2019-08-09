@@ -1,0 +1,6 @@
+x=[7,5,3,70]
+x.sort()
+print(x)
+y=min(x)
+print(y)
+len(x)
