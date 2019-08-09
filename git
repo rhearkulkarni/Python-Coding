@@ -1,0 +1,4 @@
+git add . 
+git commit -a -m "I fixed a bug"
+git push
+git 
