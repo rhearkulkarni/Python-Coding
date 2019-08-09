@@ -1,5 +1,7 @@
 x=[7,15,2,32,9]
-y=min(x)
-print(y)
-
+min=x[0]
+for i in range(0,5):
+	if min>x[i]:
+		min=x[i]
+print(min)
 
