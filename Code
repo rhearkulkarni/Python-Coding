@@ -1,0 +1,16 @@
+a="ATGCTA"
+n=0
+b=""
+for i in a:
+  if a[n]=="A":
+    b=b+"T"
+  if a[n]=="T":
+    b=b+"A"
+  if a[n]=="C":
+    b=b+"G"
+  if a[n]=="G":
+    b=b+"C"
+  n=n+1
+c=b[::-1] 
+if a=="c":
+    print("it is a palendrome")
